@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DataBindingComponent } from './components/data-binding/data-binding.component';
+import { CicloComponent } from './components/ciclo/ciclo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,
